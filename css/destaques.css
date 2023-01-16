@@ -1,0 +1,45 @@
+.destaques {
+    
+
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.destaques__titulo {
+    
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+.destaques__painel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.destaques__painel-imagem {
+    width: 100vw;
+    max-width: 600px;
+    background:transparent;
+}
+
+.destaques__painel-texto {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.destaques__botao {
+    color:var(--bg-chamada-mobile);
+    border-color:var(--bg-chamada-mobile);
+    margin: 0 auto;
+}

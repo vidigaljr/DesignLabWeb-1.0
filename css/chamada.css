@@ -1,0 +1,134 @@
+.chamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco);
+    text-align: center;    
+    background-color: var(--bg-chamada-mobile);
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.chamada__titulo {
+    color:var(--bg-chamada-mobile);
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.chamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.chamada__botao {
+    color:var(--bg-chamada-mobile);
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 600px;
+        color:var(--bg-chamada-mobile);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .chamada__texto {
+        
+        color:var(--bg-chamada-mobile);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .chamada {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__texto {
+        max-width: 600px;
+        color:var(--bg-chamada-mobile);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .chamada {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__texto {
+        max-width: 600px;
+        color:var(--bg-chamada-mobile);
+    }
+}
+@media screen and (min-width: 605px) {
+    .chamada {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__texto {
+        max-width: 600px;
+        color:var(--bg-chamada-mobile);
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .chamada {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__texto {
+        max-width: 600px;
+        color:var(--bg-chamada-mobile);
+    }
+}
