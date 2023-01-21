@@ -4,12 +4,13 @@
 		<meta charset="UTF-8">
 		<title>Contato - DesignLab</title>
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./css/contato.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 	</head>
 	<body>
 		<header>
-			<div class="caixa">
+			<div class="logo-contact">
 				<h1><img src="/" alt="Logo Design Lab"></h1>
 
 				<nav>
@@ -24,18 +25,19 @@
 
 		<main>
 			<form>
-				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao" required>
+				<div class="formulario" label for="nomesobrenome">Nome e sobrenome>
+				<input type="text" id="nomesobrenome" class="nome-sobrenome" required>
 
 				<label for="email">Email</label>
-				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+				<input type="email" id="email" class="email-text" required placeholder="seuemail@dominio.com">
 
 				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+				<input type="tel" id="telefone" class="number-phone" required placeholder="(XX) XXXXX-XXXX">
 
 				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
+				</div>
+				<textarea cols="70" rows="10" id="mensagem" class="message" required></textarea>
+				<div class="fieldset w 60" >
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
@@ -44,17 +46,19 @@
 					
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 				</fieldset>
+			</div>
 
-				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+			
+			<div class="check-box" label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
 		</main>
 
-		<footer>
+		<div class="footer">
 			<img src="/" alt="Logo da Design Lab">
 			<p class="copyright">&copy; Copyright Design Lab - 2023</p>
-		</footer>
+		</div>
 	</body>
 </html>
