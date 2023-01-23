@@ -3,13 +3,9 @@
     width: 100%;
     box-sizing: border-box;
     display: flex;
-
-
-    border-bottom: 1px solid var(--borda-cabecalho-mobile);
-
     position: relative;
-    padding-left: 40%;
-    margin-top: 15px;
+   
+    padding: 10px 0px 0px 243px;
 }
 
 .cabecalho__logo {
@@ -27,6 +23,12 @@
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+}
+
+header {
+
+    padding: 20px 60px 40px 10px;
+
 }
 
 @media screen and (min-width: 1024px) {
